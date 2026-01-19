@@ -1,6 +1,6 @@
 # Operating Systems and You: Becoming a Power User
-- [[#Module 1 - Navigating the System]]
-- [[#Module 2 - Users and Permissions]]
+- [Module 1 - Navigating the System](#Module%201%20-%20Navigating%20the%20System.md)
+- [Module 2 - Users and Permissions](#Module%202%20-%20Users%20and%20Permissions.md)
 - [[#Module 3 - Package and Software Management]]
 - [[#Module 4 - Filesystems]]
 - [[#Module 5 - Process Management]]
@@ -307,7 +307,7 @@ C:\Users\miniMinn\Desktop\ NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
 
 **NTFS** permissions can be inherited.
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251015145621.png| 500]]
+![public-notes/Google IT Support 1/Images/Pasted image 20251015145621.png| 500](public-notes/Google%20IT%20Support%201/Images/Pasted%20image%2020251015145621.png%7C%20500.md)
 
 ### Modifying Permissions
 Adding permissions or adding users to a file/folder through GUI: **Right click > Properties > Security > Add > ...**
