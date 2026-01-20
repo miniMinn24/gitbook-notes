@@ -1,12 +1,4 @@
-# Operating Systems and You: Becoming a Power User
-- [Module 1 - Navigating the System](#module-1-navigating-the-system)
-- [Module 2 - Users and Permissions](#Module%202%20-%20Users%20and%20Permissions)
-- [Module 3 - Package and Software Management](#Module%203%20-%20Package%20and%20Software%20Management)
-- [Module 4 - Filesystems](#Module%204%20-%20Filesystems)
-- [Module 5 - Process Management](#Module%205%20-%20Process%20Management)
-- [Module 6 - Operating Systems in Practice](#Module%206%20-%20Operating%20Systems%20in%20Practice)
 
----
 # Module 1 - Navigating the System
 Command-line interpreter in **Linux** - **shell**
 Language interact with - **Bash**
@@ -308,6 +300,8 @@ C:\Users\miniMinn\Desktop\ NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
 **NTFS** permissions can be inherited.
 
 ![public-notes/Google IT Support 1/Images/Pasted image 20251015145621.png| 500](public-notes/Google%20IT%20Support%201/Images/Pasted%20image%2020251015145621.png%7C%20500.md)
+
+[public-notes/Google IT Support 1/Images/25_08_30_22-37-17.png](obsidian://open?vault=My%20Notes&file=public-notes%2FGoogle%20IT%20Support%201%2FImages%2F25_08_30_22-37-17.png)
 
 ### Modifying Permissions
 Adding permissions or adding users to a file/folder through GUI: **Right click > Properties > Security > Add > ...**
