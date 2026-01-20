@@ -1,4 +1,4 @@
-[[public-notes/Google IT Support 1/attachments/Pasted image 20260120110428.png]]
+![[public-notes/Google IT Support 1/attachments/Pasted image 20260120110428.png]]
 # Module 1 - Navigating the System
 Command-line interpreter in **Linux** - **shell**
 Language interact with - **Bash**
