@@ -299,9 +299,8 @@ C:\Users\miniMinn\Desktop\ NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
 
 **NTFS** permissions can be inherited.
 
-![public-notes/Google IT Support 1/Images/Pasted image 20251015145621.png| 500](public-notes/Google%20IT%20Support%201/Images/Pasted%20image%2020251015145621.png%7C%20500.md)
+![public-notes/Google IT Support 1/Images/Pasted image 20251015145621.png](public-notes/Google%20IT%20Support%201/Images/Pasted%20image%2020251015145621.png%7C%20500.md)
 
-[public-notes/Google IT Support 1/Images/25_08_30_22-37-17.png](obsidian://open?vault=My%20Notes&file=public-notes%2FGoogle%20IT%20Support%201%2FImages%2F25_08_30_22-37-17.png)
 
 ### Modifying Permissions
 Adding permissions or adding users to a file/folder through GUI: **Right click > Properties > Security > Add > ...**
