@@ -1,3 +1,13 @@
+> [!TIP]
+> TEST
+
+> [!IMPORTANT]
+> HELLO world
+
+> [!NOTE]
+> INFO
+
+
 # Modules 1: Introduction
 IT support mindset - computing technology, it's about people
 - Logic gates `NOT, AND, OR, XOR, NAND, XNOR`
