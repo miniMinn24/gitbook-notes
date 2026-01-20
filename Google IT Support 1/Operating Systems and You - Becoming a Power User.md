@@ -301,6 +301,7 @@ C:\Users\miniMinn\Desktop\ NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
 
 ![public-notes/Google IT Support 1/Images/Pasted image 20251015145621.png](public-notes/Google%20IT%20Support%201/Images/Pasted%20image%2020251015145621.png%7C%20500.md)
 
+![](public-notes/Google%20IT%20Support%201/attachments/Pasted%20image%2020260120110428.png)
 
 ### Modifying Permissions
 Adding permissions or adding users to a file/folder through GUI: **Right click > Properties > Security > Add > ...**
