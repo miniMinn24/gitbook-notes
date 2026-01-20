@@ -1,4 +1,4 @@
-![](attachments/Pasted%20image%2020260120110428.png)
+
 # Module 1 - Navigating the System
 Command-line interpreter in **Linux** - **shell**
 Language interact with - **Bash**
@@ -299,7 +299,9 @@ C:\Users\miniMinn\Desktop\ NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
 
 **NTFS** permissions can be inherited.
 
-![public-notes/Google IT Support 1/Images/Pasted image 20251015145621.png](public-notes/Google%20IT%20Support%201/Images/Pasted%20image%2020251015145621.png%7C%20500.md)
+![public-notes/Google IT Support 1/Images/Pasted image 20251015145621.png](attachments/Pasted%20image%2020251015145621.png|%20500.md)
+
+![](attachments/Pasted%20image%2020260120111610.png)
 ### Modifying Permissions
 Adding permissions or adding users to a file/folder through GUI: **Right click > Properties > Security > Add > ...**
 
@@ -508,7 +510,7 @@ $ sudo swapon /dev/sdb2
 ```
 
 ### Files
-![[public-notes/Google IT Support 1/Images/Pasted image 20251023122128.png| 400]]
+![[attachments/Pasted image 20251023122128.png| 400]]
 
 ```bash
 # Third files indicates the amount of hard links the file has - 0 means the file is completely removed from the computer
@@ -549,7 +551,7 @@ Enabling **fsck** on boot:
 - **Volume**: A single accessible storage area with a single file system; this can be across a single disk or multiple. 
 - **Partition**: A logical division of a hard disk that can create unique spaces on a single drive. Generally used for allowing multiple operating systems.
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251020170928.png| 400]]
+![[attachments/Pasted image 20251020170928.png| 400]]
 ***Example**: If the cluster size is 4kb and the file you're trying to store is 4.1kb, that file will take up 2 clusters - losing 3.9 kb of space for use on a single file.* 
 
 ```powershell
@@ -584,7 +586,7 @@ See paging details: *Control Panel > System > Advanced system settings > System 
 ### Files
 A component of **NTFS** is the Master File Table (**MFT**) - serves as the **central data structure** for storing metadata about all files and directories on the volume.
 
-| ![[public-notes/Google IT Support 1/Images/Pasted image 20251023115805.png\| 400]] | ![[public-notes/Google IT Support 1/Images/Pasted image 20251023120137.png\| 400]] |
+| ![[attachments/Pasted image 20251023115805.png\| 400]] | ![[attachments/Pasted image 20251023120137.png\| 400]] |
 | ------------------------------------------- | ------------------------------------------- |
 
 Meaning the OSs treats symbolic link just like the original files:

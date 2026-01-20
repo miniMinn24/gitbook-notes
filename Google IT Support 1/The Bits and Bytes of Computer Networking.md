@@ -306,7 +306,7 @@ Malicious actors might also use port scanning to search for open and unsecured p
 
 ## Firewalls
 Blocks traffic that meets **certian criteria** - independant network devices.
-![[public-notes/Google IT Support 1/Images/Pasted image 20250927225642.png| 500]]
+![[attachments/Pasted image 20250927225642.png| 500]]
 
 ## The Application Layer and the OSI Model
 - Has many standardized Protocols to work with - all need to be in same protocol in order to communicate.
@@ -315,13 +315,13 @@ OSI Model is often used in academic settings and various networking certificatio
 **Presentation layer** - responsible for making sure that the unencapsulated application layer data is able to be understood by the application in question - encryption and compression.
 
 ## All the Layers Working in Unison
-![[public-notes/Google IT Support 1/Images/Pasted image 20250928123547.png| 700]]
+![[attachments/Pasted image 20250928123547.png| 700]]
 
 ---
 # Module 4
 **DNS** - A global and highly distributed network service that resolves strings of letters into IP addresses for you.
 **Domain Name** - The term we use for something that can be resolved by DNS.
-![[public-notes/Google IT Support 1/Images/Pasted image 20250930163634.png| 400]]
+![[attachments/Pasted image 20250930163634.png| 400]]
 ## The Many Steps of Name Resolution
 - IP address
 - Subnet mask
@@ -332,11 +332,11 @@ OSI Model is often used in academic settings and various networking certificatio
 
 ### Name Resolution
 - **Caching and Recursive name servers** - to store known doamin name lookups for a certain amount of time. Recursive name servers perfrom full DNS resolution requests.
-![[public-notes/Google IT Support 1/Images/Pasted image 20250930170716.png| 500]]
+![[attachments/Pasted image 20250930170716.png| 500]]
 
 ## DNS and UDP
 **DNS using UDP** - grand total of 8 packets, while TCP is 44 packets at minimum.
-![[public-notes/Google IT Support 1/Images/Pasted image 20250930213510.png| 500]]
+![[attachments/Pasted image 20250930213510.png| 500]]
 
 ## Resource Record Types
 **A** Record - Used to point a certain domain name at a certain IPv4 IP address. Uses Round Robin to balance multiple traffics.
@@ -360,7 +360,7 @@ Complete FQDN is limited to total 255 characters.
 
 ## DNS Zones
 Allowing for easier control over **multiple levels** of a domain.
-![[public-notes/Google IT Support 1/Images/Pasted image 20251001223909.png| 500]]
+![[attachments/Pasted image 20251001223909.png| 500]]
 *Each office has around 200 people with their own uniquely named desktops, this would be 600 **A Records** to keep track of in a single zone.
 Instead, split up into their own zone - each with their own DNS zone.*
 > A total of **4 Authoritative name servers** will be required - one for `largecompany.com` and one for each of the subdomains.
@@ -393,22 +393,22 @@ DHCP listens on **UDP port 67** - DHCP discovery message are always sent from **
 - This broadcast message is delivered to every node in LAN.
 - If DHCP is present, the request message will be recieved.
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251004131219.png| 400]]
+![[attachments/Pasted image 20251004131219.png| 400]]
 
 #### 2. DHCP Offer
 Since DHCP offer is also broadcast, it reach every machine on the network. The original client would recognize that was intented for itself - *by inclusion of MAC address in broadcast message.*
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251004132216.png| 400]]
+![[attachments/Pasted image 20251004132216.png| 400]]
 
 #### 3. DHCP Request
 "I'd like to have an IP that you offered to me." IP hasn't assigned yet, and again sent. DHCP server receives the DHCP request message - then DHCP ACK.
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251004132729.png| 400]]
+![[attachments/Pasted image 20251004132729.png| 400]]
 
 #### 4. DHCP Acknowledgement
 Client use the configuration information and set up its own network layer configuration.
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251004132848.png| 400]]
+![[attachments/Pasted image 20251004132848.png| 400]]
 
 **DHCP Lease** - Certain amount of time availabe to client before it expires. Which then you can have another IP pool by DHCP.
 
@@ -421,11 +421,11 @@ Client use the configuration information and set up its own network layer config
 **Port Preservation** - A technique where the source port chosen by a client is the same port used by the router.
 > Outbound connections choose a source port at random from **Ephemeral ports** (49,152 through 65,535).
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251004161102.png| 400]]
+![[attachments/Pasted image 20251004161102.png| 400]]
 
 **Port Forwarding** (Transport layer) - A technique where specific destination ports can be configured to always be delivered to specific nodes. This allows for complete **IP Masquerading**.
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251004163236.png| 400]]
+![[attachments/Pasted image 20251004163236.png| 400]]
 
 ## IPv4 Exhaustion
 IANA assigns IP address blocks to the five **Regional Internet Registries (RIRs)**.
@@ -437,12 +437,12 @@ IANA assigns IP address blocks to the five **Regional Internet Registries (RIRs)
 > Your computer gets its IP address directly from an **RIR**, not the IANA.
 
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251004170519.png| 400]]
+![[attachments/Pasted image 20251004170519.png| 400]]
 
 ## Virtual Private Networks
 The **Tunnelling Procotols**. Works by using the payload session at the Transport layer.
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251004171417.png| 400]]
+![[attachments/Pasted image 20251004171417.png| 400]]
 
 ## Proxy Services
 A server that acts on behalf of a client in order to access another service. 
@@ -450,7 +450,7 @@ A server that acts on behalf of a client in order to access another service.
 **Reverse Proxy** - A service that might appear to be a single server to external 
 clients, but actually represents many servers living behind it. (*Like load balancing*)
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251004184352.png| 400]]
+![[attachments/Pasted image 20251004184352.png| 400]]
 
 > Proxies are any server that acts a intermediary between a client and another server.
 
@@ -460,7 +460,7 @@ clients, but actually represents many servers living behind it. (*Like load bala
 ## Dial-up and Modems
 A dial-up connection uses POTS (Plain Old Telephone Service - analog) for data transfer, and gets its name because the connection is established by actually dialing a phone number.
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251004215204.png| 400]]
+![[attachments/Pasted image 20251004215204.png| 400]]
 
 **Baud Rate** - A measurement of how many bits can be passed across a phone line in a second.
 **Modems** take data - interpret and turn into **audible wavelengths** that can be transmitted over POTS.
@@ -475,7 +475,7 @@ Invented by AT&T.
 ## Digital Subscriber Lines (DSL)
 For more faster internet - voice-to-voice call speeds
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251004221311.png| 300]]
+![[attachments/Pasted image 20251004221311.png| 300]]
 
 DSL the two common types were
 - **ADSL** - Asymmetric Digital Subscriber Line, different speed for outbound and incoming data - faster download speed and slower upload speed.
@@ -484,7 +484,7 @@ DSL the two common types were
 ## Cable Broadband
 **Cable Modem** - The device that sits at the edge of a consumer's network and connects it to the cable modem termination system, or CMTS.
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251004222542.png| 500]]
+![[attachments/Pasted image 20251004222542.png| 500]]
 
 ## Fiber Connections
 - **FTTX** - Fiber To The X, where X can be one of many things.
@@ -518,7 +518,7 @@ Two sub-protocols occur on Network Layer when the network decides what physical 
 - **Network Control Protocol (NCP)** used to negotiate optional configuration parameters and facilities for the Network Layer. There's NCP for each higher layer protocol used by the PPP.
 - **Link Control Protocol (LCP)** initiates and terminates connections automatically for hosts - configures the interfaces at each end like magic numbers and selecting for optional authentication.
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251005194537.png| 500]]
+![[attachments/Pasted image 20251005194537.png| 500]]
 
 - **Flag**: a single byte and lets the receiver know beginning of the frame. Depending on encapsulation - may or may not be a start or end flag.
 - **Address**: a single byte, contains broadcast address.
@@ -530,7 +530,7 @@ Two sub-protocols occur on Network Layer when the network decides what physical 
 #### Encapsulation
 Prcoess which each layer takes data from previous layer and adds **headers and trailers** for the next layer to interpret.
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251005231035.png| 500]]
+![[attachments/Pasted image 20251005231035.png| 500]]
 
 Process is reversed in other endpoint - De-encapsulation.
 
@@ -546,14 +546,14 @@ A way of encapsulating PPP frames inside an ethernet frame. PPPoE is solution fo
 ## Wide Area Network Technologies (WAN)
 *You're as a sole IT support, you setup a router and configure it to perform NAT. Connect DNS and DHCP server to make network configuration easier. You sign a contract with a ISP (delivers link to internet). You configure VPN server accessiable via port forwarding. Can have employees to connect the office from anywhere.*
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251006145028.png| 400]]
+![[attachments/Pasted image 20251006145028.png| 400]]
 
 *Your CEO decides new office open - with WAN*
 
 **WAN** - Acts like a single network, but spans across multiple physical locations. Usually require to contract a link with ISP across the internet.
 
 
-| ![[public-notes/Google IT Support 1/Images/Pasted image 20251006152622.png\| 400]]                                                                                                                                                                                                                    | ![[public-notes/Google IT Support 1/Images/Pasted image 20251006152900.png\| 400]]                                                                                                                                    |
+| ![[attachments/Pasted image 20251006152622.png\| 400]]                                                                                                                                                                                                                    | ![[attachments/Pasted image 20251006152900.png\| 400]]                                                                                                                                    |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | One network at one side and another network on the other.<br>Each of those networks ends at a **demarcation point** - where the ISPs network takes over<br>The area between each demarcation point and the ISP's actual core network is called **Local Loop**. Local loop would be like a **T carrier line or high speed optical connection** to the provider's local regional office. Connects to ISP's core network and internet at large. s  |
 
@@ -599,7 +599,7 @@ Most common: 2.4 GHz and 5 GHz. Specifications for how should wireless communica
 
 802.11 defining how we operate at both **Physical** and the **Data Link** layers.
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251007140336.png| 500]]
+![[attachments/Pasted image 20251007140336.png| 500]]
 
 - **Frame Control** - 16 bits, describes how should be processed *e.g version used.*
 - **Duration/ID** - how long total frame is, so reciever knows how long should to listen.
@@ -630,7 +630,7 @@ Most common: 2.4 GHz and 5 GHz. Specifications for how should wireless communica
 **5 GHz**
 - More channels, fewer interference, 2 Gbps speed. But, limited 50 feet (12 m) to 100 feet (30 m).
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251007150710.png| 500]]
+![[attachments/Pasted image 20251007150710.png| 500]]
 
 ## IoT Data Transfer Protocols
 - Request/Response Model, Publish/Subscribe Model (hosts|clients)
@@ -655,7 +655,7 @@ IoT collects physical location (*temp*), equipment data (*maintainance status*),
 For example, dealing with 802.11b network, channel 1 operates at 2.412 MHz. Since channel width is 22 MHz, signal really lives between 2.401 MHz and 2.423 MHz.
 Some channels overlap, but some are far to won't interfere with each other.
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251007161453.png| 500]]
+![[attachments/Pasted image 20251007161453.png| 500]]
 
 Some APs only perform this analysis when startup. Others dynamically change their channel as needed.
 You can still experience heavy channel congestion - in dense urban areas with lots of wireless networks.
@@ -689,7 +689,7 @@ For business networks with multiple users, able to addressed exploited weaknesse
 Like Wi-Fi cellular networking operates over **radio waves** - specifically reseverd for cellular transmissions.
 Travels long distances - usually over kilometers or miles. Built on cell concept, each cell is assigned a specifc frequency band for use. Neighboring cells are setup to use bands that don't overlap. (*WLAN with multiple APs*)
 
-| ![[public-notes/Google IT Support 1/Images/Pasted image 20251007223017.png\| 300]] | ![[public-notes/Google IT Support 1/Images/Pasted image 20251007222939.png\| 400]] |
+| ![[attachments/Pasted image 20251007223017.png\| 300]] | ![[attachments/Pasted image 20251007222939.png\| 400]] |
 | ------------------------------------------- | ------------------------------------------- |
 
 ---
@@ -698,7 +698,7 @@ Travels long distances - usually over kilometers or miles. Built on cell concept
 ## Ping: Internet Control Message Protocol
 ICMP is mainly used by routers or remote hosts to communicate why transmission failed.
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251008151025.png| 400]]
+![[attachments/Pasted image 20251008151025.png| 400]]
 - **Type**: What type of msg is delivered - *destination unreachable or time exeeded.*
 - **Code**: Indicates more specific reason - *port unreachable*.
 - **Rest of the header**: Optionally used for something.
@@ -712,7 +712,7 @@ The payload for an ICMP packet exists entirely so that the recipient of the mess
 ## Traceroute
 A utility that lets you discover the path between two nodes, and gives you information about each hop along the way.
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251008162241.png| 500]]
+![[attachments/Pasted image 20251008162241.png| 500]]
 
 Linux/MacOS: `traceroute`, `mtr` (act as long running trace routes) and Windows: `tracert`, `pathping`.
 
@@ -829,7 +829,7 @@ Level 3 public DNS servers
 > **ICANN** the top-level organization manages the global DNS.
 
 Most businesses also run their own DNS server to resolve names for internal hosts, instead of IP, being able to name refering to a printer.
-![[public-notes/Google IT Support 1/Images/Pasted image 20251009194710.png| 400]]
+![[attachments/Pasted image 20251009194710.png| 400]]
 
 **Public DNS server**: Name servers specifically set up so that anyone can use them, for free.
 Google public DNS servers: `8.8.8.8` and `8.8.4.4`
@@ -837,14 +837,14 @@ Google public DNS servers: `8.8.8.8` and `8.8.4.4`
 Most public DNS servers are available globally through **anycast**.
 
 Always do your research before configuring the devices to use one DNS server. Hijacking outbound DNS requests with **faulty responses** is an easy way to **redirect** users to malicious sites.
-![[public-notes/Google IT Support 1/Images/Pasted image 20251009194148.png| 600]]
+![[attachments/Pasted image 20251009194148.png| 600]]
 
 ## DNS Registration and Expiration
 **Registrar**: An organization responsible for assigning individual domain names to other organizations or individuals.
-![[public-notes/Google IT Support 1/Images/Pasted image 20251009195907.png| 500]]
+![[attachments/Pasted image 20251009195907.png| 500]]
 
 The recipient registrar will generate a unique string of characters to prove that you own the domain and you're allowed to transfer it to someone else.
-![[public-notes/Google IT Support 1/Images/Pasted image 20251009195941.png| 600]]
+![[attachments/Pasted image 20251009195941.png| 600]]
 
 ## Hosts Files
 A flat file that contains, on each line, a network address followed by the host name it can be referred to as.
@@ -859,7 +859,7 @@ A **loopback** address always points to itself - A way of sending network traffi
 **Virtualization**: A single physical machine (host), could run many individual virtual instances (guests).
 **Hyprervisor**: A piece of software that runs and manages VMs, while also offering these guests a virtual operating platform that's indistinguishable from actual hardware.
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251009211304.png| 450]]
+![[attachments/Pasted image 20251009211304.png| 450]]
 
 **Public Cloud**: A large cluster of machines run by another company.
 **Private Cloud:** Used by a single large corparation and generally physically hosted on its own premises.
@@ -909,11 +909,11 @@ in IPv6 - 31 zeros with a one at the end:
 > Unlike IPv4, there was never any need to think about splitting it up because it is so huge.
 > Network engs might want to split it for administrative purpose, IPv6 subnetting uses the same CIDR notation.
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251009232236.png| 400]]
+![[attachments/Pasted image 20251009232236.png| 400]]
 
 ## IPv6 Headers
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251009234805.png| 400]]
+![[attachments/Pasted image 20251009234805.png| 400]]
 
 - **Version**: 4-bit, defines what IP version is in use.
 - **Class**: 8-bit, type of traffic contained within IP datagram, allows for different classes of traffic to receive different priorities.
@@ -930,7 +930,7 @@ in IPv6 - 31 zeros with a one at the end:
 **IPv6 Tunnels**: Servers take incoming IPv6 traffic and encapsulate it within traditional IPv4 datagram. 
 > They consist of IPv6 tunnel servers on either end of a connection.
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251009235753.png| 500]]
+![[attachments/Pasted image 20251009235753.png| 500]]
 
 **IPv6 Tunnel Broker** - Companies that provide IPv6 tunneling endpoints for you, so you don't have to introduce additional equipment to your network. (So no additional equipment for your network needed) 
 > It's still new and envolving, there're lots of competing protocols. The future of networking is the adoption to IPv6 as the main protocol at the Network Layer. One day will no tunnels will be need for specific IPv6 communications.
@@ -939,7 +939,7 @@ in IPv6 - 31 zeros with a one at the end:
 Tunnels are created using IPv6 servers on either end of a network connection. <mark style="background: #BBFABBA6;">A tunnel server at one end takes incoming IPv6 traffic</mark> and encapsulates it within a traditional IPv4 datagram.
 > **Encapsulation** - the process of transporting a data packet inside the payload of another packet. 
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251010170123.png| 500]]
+![[attachments/Pasted image 20251010170123.png| 500]]
 
 ### Three Types of Tunnels
 - **6in4/Manual Protocol** encapsulate IPv6 packets <mark style="background: #ABF7F7A6;">immediately inside an IPv4 packet</mark>, without using additional headers to configure the setup of the tunnel endpoints - Manually - Predictable and eaxy to debug. But, makes 6in4/manual protocl difficult to depoly if NAT is used on host.
