@@ -8,7 +8,7 @@
 ---
 # Module 1
 **Protocol** - Defined sets of standards for communication.
-![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250903185544.png| 500]]
+![[attachments/Pasted image 20250903185544.png| 500]]
 
 #### Physical Layer
 Physical devices that interconnect computers, about signal are sent between networks.
@@ -26,17 +26,17 @@ Mostly **TCP/UDP** responsible for ensuring data gets to right application runni
 #### Application Layer
 The interface between end-user applications and the underlying network services. (e.g. Browser)
 
-![[Fundamentals/Coursera/Google IT Support/Images/25_08_30_22-37-17.png| 500]]
+![[attachments/25_08_30_22-37-17.png| 500]]
 
 ## Cables
 Common forms of copper twisted-pair cables - **Cat5, Cat5e,** and **Cat6**.
 
-![[Fundamentals/Coursera/Google IT Support/Images/25_08_30_22-48-51.png]]
+![[attachments/25_08_30_22-48-51.png]]
 
 **Crosstalk** - When an electrical pulse on one wire is accidentally detected on another wire. (Cat5 is replaced by Cat5e)
 **Fiber cables** - Contain individual optic fiber - tiny tubes made out of glass (width of human hair). Mostly seen in data centers and ensures quicker, no potential data loss - but expensive.
 
-![[Fundamentals/Coursera/Google IT Support/Images/25_08_30_23-05-40.png| 400]]
+![[attachments/25_08_30_23-05-40.png| 400]]
 
 ## Hubs, Switches and Routers
 **Hub** - broadcasts them out to all other connected ports<mark style="background: #FFF3A3A6;"> without analyzing or processing</mark> the data. Forwards all incoming data to every other connected device. Nodes in the network of hub can only send data one at a time.
@@ -46,13 +46,13 @@ Common forms of copper twisted-pair cables - **Cat5, Cat5e,** and **Cat6**.
 **Router** - uses IP to transmit IP packets contains both the data and source & destination IP addresses. Directing traffic efficiently by <mark style="background: #FFF3A3A6;">examining packet headers and consulting its routing table </mark>to determine the best path for each packet - across different networks.
 - *Routers are Global Guides for getting traffic to the right places in a world of large complex internet. (e.g. between you and web server)*
 
-![[Fundamentals/Coursera/Google IT Support/Images/25_08_30_23-20-08.png| 500]]
+![[attachments/25_08_30_23-20-08.png| 500]]
 
 **Border Gateway Protocol (BGP)** - Routers share data via BGB, letting them learn about the <mark style="background: #FFF3A3A6;">most optimal paths</mark> to forward traffic.
 
 ## Servers and Clients
 Each node is primarily an either Server or Client.
-![[Fundamentals/Coursera/Google IT Support/Images/25_09_02_13-09-17.png| 400]]
+![[attachments/25_09_02_13-09-17.png| 400]]
 Even though **Mail server** acts as a server, it is a client of **DNS server**.
 
 ## Moving Bits Across the Wire
@@ -62,7 +62,7 @@ Even though **Mail server** acts as a server, it is a client of **DNS server**.
 ## Twisted Pair Cabling and Duplexing
 **Duplex** - The concept that information can flow in both directions.
 **Simplex** - unidirectional.
-![[Fundamentals/Coursera/Google IT Support/Images/25_09_02_13-17-57.png| 400]]
+![[attachments/25_09_02_13-17-57.png| 400]]
 
 ## Ethernet Over Twisted Pair Technologies
 - **UTP** - The most common and least expensive - business and home networks. Basic protection against <mark style="background: #BBFABBA6;">electromagnetic interference (EMI), radio frequency interference (RFI), and crosstalk interference.</mark>
@@ -74,46 +74,46 @@ Even though **Mail server** acts as a server, it is a client of **DNS server**.
 ## Network Ports and Patch Panels
 **RJ45** - Registered Jack, used primarily for Ethernet networking to link devices.
 
-| ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250903142814.png\| 180]] | ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250903143147.png\| 250]] | ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250903143310.png\| 250]] |
+| ![[attachments/Pasted image 20250903142814.png\| 180]] | ![[attachments/Pasted image 20250903143147.png\| 250]] | ![[attachments/Pasted image 20250903143310.png\| 250]] |
 | ------------------------------------------- | ------------------------------------------- | ------------------------------------------- |
 
 **Patch panel** - as a central point for organising and managing the <mark style="background: #BBFABBA6;">vast network of cables</mark>. Administrators can easily establish, modify, or terminate links between different network components.
 *Structured cabling is important in enterprise networking - clear where cables terminate.*
 
-![[Fundamentals/Coursera/Google IT Support/Images/2025-09-03-143537_hyprshot.png| 400]]
+![[attachments/2025-09-03-143537_hyprshot.png| 400]]
 
 ## Cabling Tools
 
 | Picture                                     | Description                                                                                                                                                                                                                                             |
 | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250903145257.png\| 200]] | **Crimper**<br>Securely attaching connectors, such as RJ45 connectors, to the ends of Ethernet cables without soldering - <mark style="background: #ABF7F7A6;">squeeze down or crimp wires</mark>.                                                      |
-| ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250903144844.png\| 200]] | **Cable Stripper**<br>To remove the <mark style="background: #ABF7F7A6;">protective rubber coating</mark> from Ethernet cables (UTP and STP) to expose the individual conductors for termination with connectors like RJ45 plugs or keystone jacks.<br> |
-| ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250903153340.png\| 200]] | **Wi-Fi Analyzer**<br>Visualizes the RF environment, identify sources of interference, and <mark style="background: #ABF7F7A6;">optimize wireless network performance</mark> in an area. Collects data about the WiFi and its circumstances.            |
-| ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250903153657.png\| 200]] | **Toner Probe**<br><mark style="background: #ABF7F7A6;">Finding Ethernet</mark> and other internet connectors (Cat 5, Cat 6, ...) through walls, ceilings, or within cable bundles where they are not physically accessible.                            |
-| ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250903154329.png\| 200]] | **Punch Down Tool**<br>Punching down wires into <mark style="background: #ABF7F7A6;">punch down panels or jacks</mark>. First the protective covering is taken off the wires, then the wires are punched into place.                                    |
-| ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250903155001.png\| 200]] | **Cable Tester**<br>To <mark style="background: #ABF7F7A6;">detect common wiring faults</mark> - open connections (breaks in a wire), shorts (where wires touch unintentionally), crossed pairs, reversed pairs, and incorrect wiring.                  |
-| ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250903160843.png\| 200]] | **Loopback Plug**<br>Hardware diagnostic tool used in networking to <mark style="background: #ABF7F7A6;">test the functionality</mark> of physical ports and interfaces                                                                                 |
-| ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250903161119.png\| 200]] | **Network Tap**<br><mark style="background: #ABF7F7A6;">Monitors and captures data</mark> flowing through a network, providing a non-intrusive, passive method for accessing network traffic.                                                           |
+| ![[attachments/Pasted image 20250903145257.png\| 200]] | **Crimper**<br>Securely attaching connectors, such as RJ45 connectors, to the ends of Ethernet cables without soldering - <mark style="background: #ABF7F7A6;">squeeze down or crimp wires</mark>.                                                      |
+| ![[attachments/Pasted image 20250903144844.png\| 200]] | **Cable Stripper**<br>To remove the <mark style="background: #ABF7F7A6;">protective rubber coating</mark> from Ethernet cables (UTP and STP) to expose the individual conductors for termination with connectors like RJ45 plugs or keystone jacks.<br> |
+| ![[attachments/Pasted image 20250903153340.png\| 200]] | **Wi-Fi Analyzer**<br>Visualizes the RF environment, identify sources of interference, and <mark style="background: #ABF7F7A6;">optimize wireless network performance</mark> in an area. Collects data about the WiFi and its circumstances.            |
+| ![[attachments/Pasted image 20250903153657.png\| 200]] | **Toner Probe**<br><mark style="background: #ABF7F7A6;">Finding Ethernet</mark> and other internet connectors (Cat 5, Cat 6, ...) through walls, ceilings, or within cable bundles where they are not physically accessible.                            |
+| ![[attachments/Pasted image 20250903154329.png\| 200]] | **Punch Down Tool**<br>Punching down wires into <mark style="background: #ABF7F7A6;">punch down panels or jacks</mark>. First the protective covering is taken off the wires, then the wires are punched into place.                                    |
+| ![[attachments/Pasted image 20250903155001.png\| 200]] | **Cable Tester**<br>To <mark style="background: #ABF7F7A6;">detect common wiring faults</mark> - open connections (breaks in a wire), shorts (where wires touch unintentionally), crossed pairs, reversed pairs, and incorrect wiring.                  |
+| ![[attachments/Pasted image 20250903160843.png\| 200]] | **Loopback Plug**<br>Hardware diagnostic tool used in networking to <mark style="background: #ABF7F7A6;">test the functionality</mark> of physical ports and interfaces                                                                                 |
+| ![[attachments/Pasted image 20250903161119.png\| 200]] | **Network Tap**<br><mark style="background: #ABF7F7A6;">Monitors and captures data</mark> flowing through a network, providing a non-intrusive, passive method for accessing network traffic.                                                           |
 
 ## Ethernet and MAC Addresses
 **MAC** - Media Access Control, a <mark style="background: #BBFABBA6;">globally unique identifier</mark> attached to network interface.
 - 48-bit, six groups of two hexadecimal numbers.
 - First **three** octets - Organizationally Unique Identifier (OUI)
-![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250903191342.png| 500]]
+![[attachments/Pasted image 20250903191342.png| 500]]
 
 ## Unicast, Multicast, and Broadcast
 
 | Name          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Unicast**   | <mark style="background: #ABF7F7A6;">One-to-one communication model.</mark><br><br>*e.g. `4A-30-10-21-10-1A`, the first octet is `4A` in hexadecimal - `01001010`. The least significant bit (the rightmost) is `0` - this is a **unicast address**.*<br><br>This frame will be sent to all devices on the collision domain, but only the device with the matching MAC address will receive and process it.<br><br>![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250903223126.png\| 200]]                                                                                                                                                                   |
-| **Multicast** | <mark style="background: #FFB8EBA6;">One-to-many communication model.</mark><br><br>*e.g. `01:00:5E:00:01`, the first octet is `01` - `0000 0001` in binary. The least significant bit is `1` - it is a multicast address. This specific address falls within the range `01:00:5E:00:00` to `01:00:5E:7F:FF`, which is reserved for IPv4 multicast addresses.*<br><br>While the switch treats the frame as multicast and floods it to all ports, the receiving NICs decide whether to accept the frame based on whether they are subscribed to that specific multicast group.<br><br>![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250903222851.png\| 200]] |
-| **Broadcast** | <mark style="background: #ADCCFFA6;">One-to-all communication model.</mark><br><br>On the data link (Layer 2), a broadcast is identified by a destination MAC address `FF:FF:FF:FF:FF`, which all devices on the network recognize as a broadcast intended for everyone.<br><br>The message is delivered to every device on the local network, although only the relevant device(s) will process it, while others will typically ignore it.<br><br>![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250903223052.png\| 200]]                                                                                                                                   |
+| **Unicast**   | <mark style="background: #ABF7F7A6;">One-to-one communication model.</mark><br><br>*e.g. `4A-30-10-21-10-1A`, the first octet is `4A` in hexadecimal - `01001010`. The least significant bit (the rightmost) is `0` - this is a **unicast address**.*<br><br>This frame will be sent to all devices on the collision domain, but only the device with the matching MAC address will receive and process it.<br><br>![[attachments/Pasted image 20250903223126.png\| 200]]                                                                                                                                                                   |
+| **Multicast** | <mark style="background: #FFB8EBA6;">One-to-many communication model.</mark><br><br>*e.g. `01:00:5E:00:01`, the first octet is `01` - `0000 0001` in binary. The least significant bit is `1` - it is a multicast address. This specific address falls within the range `01:00:5E:00:00` to `01:00:5E:7F:FF`, which is reserved for IPv4 multicast addresses.*<br><br>While the switch treats the frame as multicast and floods it to all ports, the receiving NICs decide whether to accept the frame based on whether they are subscribed to that specific multicast group.<br><br>![[attachments/Pasted image 20250903222851.png\| 200]] |
+| **Broadcast** | <mark style="background: #ADCCFFA6;">One-to-all communication model.</mark><br><br>On the data link (Layer 2), a broadcast is identified by a destination MAC address `FF:FF:FF:FF:FF`, which all devices on the network recognize as a broadcast intended for everyone.<br><br>The message is delivered to every device on the local network, although only the relevant device(s) will process it, while others will typically ignore it.<br><br>![[attachments/Pasted image 20250903223052.png\| 200]]                                                                                                                                   |
 
 ## Dissecting an Ethernet Frame
 **Data packet** - any single set of binary data being sent across.
 Data packets in Ethernet level, it is **Ethernet frame** - highly structured collection of information in specific order.
 
-![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250903233048.png]]
+![[attachments/Pasted image 20250903233048.png]]
 
 | Unit                            | Bytes      | Description                                                                                                                                                                                                                                                                                                                                                                                         |
 | ------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -130,7 +130,7 @@ Data packets in Ethernet level, it is **Ethernet frame** - highly structured col
 # Module 2
 ## IPv4 Addresses
 
-| ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250904111523.png\| 300]]                                                             |
+| ![[attachments/Pasted image 20250904111523.png\| 300]]                                                             |
 | ------------------------------------------------------------------------------------------------------- |
 | IP address represented in **32-bits** long and **4 octets** - (normally represented in decimal `0-255`) |
 
@@ -142,7 +142,7 @@ Data packets in Ethernet level, it is **Ethernet frame** - highly structured col
 ## IPv4 Datagram and Encapsulation
 **IP Datagram** - <mark style="background: #BBFABBA6;">structured series of fields</mark> that are strictly defined.
 
-![[Fundamentals/Coursera/Google IT Support/Images/2025-09-04-124455_hyprshot.png| 500]]
+![[attachments/2025-09-04-124455_hyprshot.png| 500]]
 
 | Unit                       | Bits | Description                                                                                                                                                                                                                      |
 | -------------------------- | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -150,10 +150,10 @@ Data packets in Ethernet level, it is **Ethernet frame** - highly structured col
 | **Header Length**          | `4`  | Declares how long the entire header is - almost always 20 bytes in dealing with IPv4                                                                                                                                             |
 | **Service Type**           | `16` | Specify details about quality of service (QoS).<br><mark style="background: #FFF3A3A6;">Routers</mark> can decide which IP datagram maybe more important <mark style="background: #FFF3A3A6;">based on the Service Type</mark>.  |
 | **Total length field**     | `16` | Indicates the total length of the IP datagram.                                                                                                                                                                                   |
-| **Identification**         | `16` | Groups messages together.<br>- The IP layer <mark style="background: #FFF3A3A6;">splits data into individual packets</mark> when amount of data is larger than a single datagram.<br>![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250905170710.png\| 300]] |
+| **Identification**         | `16` | Groups messages together.<br>- The IP layer <mark style="background: #FFF3A3A6;">splits data into individual packets</mark> when amount of data is larger than a single datagram.<br>![[attachments/Pasted image 20250905170710.png\| 300]] |
 | **Flags**                  | --   | Indicates if a datagram is allowed to be <mark style="background: #FFF3A3A6;">fragmented</mark> or has already been fragmented.                                                                                                  |
-| **Fragment Offset**        | --   | Indicates the starting position of the data in a fragment.<br>![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250905171834.png\| 300]]                                                                                                                        |
-| **TTL** (Time to live)     | 8    | Indicates <mark style="background: #FFF3A3A6;">how many routers hops</mark> a datagram.<br>![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250905172926.png\| 300]]                                                                                           |
+| **Fragment Offset**        | --   | Indicates the starting position of the data in a fragment.<br>![[attachments/Pasted image 20250905171834.png\| 300]]                                                                                                                        |
+| **TTL** (Time to live)     | 8    | Indicates <mark style="background: #FFF3A3A6;">how many routers hops</mark> a datagram.<br>![[attachments/Pasted image 20250905172926.png\| 300]]                                                                                           |
 | **Protocol**               | 8    | Contains data about what transport layer protocol is being used. (*e.g. TCP, UDP*)                                                                                                                                               |
 | **Header Checksum**        | 13   | Checksum of the contents of the entire IP datagram header.                                                                                                                                                                       |
 | **Source IP Address**      | 32   | Sender of the packet                                                                                                                                                                                                             |
@@ -161,11 +161,11 @@ Data packets in Ethernet level, it is **Ethernet frame** - highly structured col
 | **Options**                | --   | Used to set special characteristics for datagrams - testing purposes.                                                                                                                                                            |
 | **Padding**                | --   | A series of zeros used to ensure the header is the correct total size.                                                                                                                                                           |
 The entire concept of datagram is <mark style="background: #BBFABBA6;">encapsulated</mark> as the payload of Ethernet frame.
-![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250905175940.png| 400]]
+![[attachments/Pasted image 20250905175940.png| 400]]
 
 ## IPv4 Address Classes
 IP Addresses - **network ID** and **host ID**.
-![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250905181633.png| 500]]
+![[attachments/Pasted image 20250905181633.png| 500]]
 
 ## Address Resolution Protocol (ARP)
 **ARP** - A protocol used to <mark style="background: #BBFABBA6;">discover the hardware address</mark> of a node with a certain IP address.
@@ -173,21 +173,21 @@ IP Addresses - **network ID** and **host ID**.
 
 > ARP table entries generally expire after a short amount of time to ensure changes int he network are accounted for.
 
-| ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250905182408.png\| 400]] | ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250905184343.png\| 400]] |
+| ![[attachments/Pasted image 20250905182408.png\| 400]] | ![[attachments/Pasted image 20250905184343.png\| 400]] |
 | ------------------------------------------- | ------------------------------------------- |
 
 ## Subnetting
 Dividing a large network into **smaller**, more **manageable** networks.
 > Incorrect subnetting setups are common problem - IT support might run into.
 
-| ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250905212653.png\| 400]] | ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250905212721.png\| 200]] |
+| ![[attachments/Pasted image 20250905212653.png\| 400]] | ![[attachments/Pasted image 20250905212721.png\| 200]] |
 | ------------------------------------------- | ------------------------------------------- |
 
 ## Subnet Masks
 
-| ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250905213555.png\| 400]] |
+| ![[attachments/Pasted image 20250905213555.png\| 400]] |
 |:-------------------------------------------:|
-| ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250905213628.png\| 300]] |
+| ![[attachments/Pasted image 20250905213628.png\| 300]] |
 
 ## CIDR (Class-Inter Domain Routing)
 A method for allocating IP addresses and routing internet traffics.
@@ -195,13 +195,13 @@ A method for allocating IP addresses and routing internet traffics.
 
 ## Basic Routing Concepts
 
-| ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250905215812.png\| 400]] |
+| ![[attachments/Pasted image 20250905215812.png\| 400]] |
 | ------------------------------------------- |
-| ![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250905223258.png\| 400]] |
+| ![[attachments/Pasted image 20250905223258.png\| 400]] |
 
 ## Routing Tables
 
-![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250912202059.png| 500]]
+![[attachments/Pasted image 20250912202059.png| 500]]
  
  **Destination Network** - Contain a row for each network that the routers knows about.
  **Next Hop** - The IP address of the next router that should receive data intended for the destination networking quesiton.
@@ -215,7 +215,7 @@ A method for allocating IP addresses and routing internet traffics.
 
 ## Exterior Gateways, Autonomous Systems, and the IANA
 
-![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250912205653.png| 400]]
+![[attachments/Pasted image 20250912205653.png| 400]]
 
 **IANA** - Internet Assigned Numbers Authority, non-profit organization that helps manage things like IP address allocation. Alongside, also responsible for **ASN**.
 **ASN** - Autonomous system number, numbers assigned to individual autonomous systems.
@@ -233,10 +233,10 @@ The ranges of Is set aside for use by anyone that cannot be routed to. Every dev
 
 Through ports, **ports** (16 bits) are used to direct traffic to specific services - running on a networked computers.
 
-![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250913221557.png| 500]]
+![[attachments/Pasted image 20250913221557.png| 500]]
 
 ## Dissection of a TCP Segment
-![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250915144803.png| 400]]
+![[attachments/Pasted image 20250915144803.png| 400]]
 - **Sequence number** - used to reassemble the message at the receiving end of the segments that are received out of order.
 - **Acknowledgement number** - an acknowledgement for the previous bytes being received successfully.
 - **Data offset field** - communicates how long the TCP header for this segment is.
@@ -253,7 +253,7 @@ Through ports, **ports** (16 bits) are used to direct traffic to specific servic
 - **SYN** (synchronize): Synchronize sequence numbers - used when first establishing and make sure the receiving end knows to examine the sequence number field.
 - **FIN** (finish): connection can be closed and terminate.
 
-![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250915153511.png| 400]]
+![[attachments/Pasted image 20250915153511.png| 400]]
 Once the three-way handshake is complete, the TCP connection is established:
 > A sends a TCP segment to B with a `SYN` flag sent.
 > A: "Let's establish a connection and look at my `sequence number` field, so we know where this conversation starts."
@@ -265,7 +265,7 @@ Once the three-way handshake is complete, the TCP connection is established:
 > A: "I acknowledge your acknowledgement. Let's start sending data."
 
 Since both sides have now send `SYN/ACK` pairs to each other, a TCP connection in this state is operation in **full duplex**.
-![[Fundamentals/Coursera/Google IT Support/Images/Pasted image 20250915155027.png| 300]]
+![[attachments/Pasted image 20250915155027.png| 300]]
 
 **Handshake**  - ensure that they're speaking the same protocol, and able to understand each other.
 

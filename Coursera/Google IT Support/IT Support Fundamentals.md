@@ -156,7 +156,7 @@ Take a deep breath, look around for people who are more engaged with you that pa
 > User get frasturated with same questions over and over again.
 > *why the calender app doesn't open? it doesn't just load when you press to open or not syncing?*
 
-<mark style="background: #ABF7F7A6;">Try to pause before you speak for 5 to 10 secs</mark>, ask your **why the user talking over me? or did I miss anything?** then think about what you want to say.
+Try to pause before you speak for 5 to 10 secs, ask your **why the user talking over me? or did I miss anything?** then think about what you want to say.
 
 ### Tickets System (Documentation)
 You need to <mark style="background: #ABF7F7A6;">document your works</mark> to remember how you did:

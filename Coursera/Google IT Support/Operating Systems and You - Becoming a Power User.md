@@ -1,4 +1,12 @@
+# Operating Systems and You: Becoming a Power User
+- [[#Module 1 - Navigating the System]]
+- [[#Module 2 - Users and Permissions]]
+- [[#Module 3 - Package and Software Management]]
+- [[#Module 4 - Filesystems]]
+- [[#Module 5 - Process Management]]
+- [[#Module 6 - Operating Systems in Practice]]
 
+---
 # Module 1 - Navigating the System
 Command-line interpreter in **Linux** - **shell**
 Language interact with - **Bash**
@@ -299,9 +307,8 @@ C:\Users\miniMinn\Desktop\ NT AUTHORITY\SYSTEM:(I)(OI)(CI)(F)
 
 **NTFS** permissions can be inherited.
 
-![public-notes/Google IT Support 1/Images/Pasted image 20251015145621.png](attachments/Pasted%20image%2020251015145621.png|%20500.md)
+![[attachments/Pasted image 20251015145621.png| 500]]
 
-![](attachments/Pasted%20image%2020260120111610.png)
 ### Modifying Permissions
 Adding permissions or adding users to a file/folder through GUI: **Right click > Properties > Security > Add > ...**
 
@@ -610,7 +617,7 @@ mklink /H file_1_hardlink file_1.txt
 
 > **Journaling** - Logging these changes NTFS creates a history of actions it's taken. The **recovery initiation** will use this logs.
 
-![public-notes/Google IT Support 1/Images/Pasted image 20251023125458.png| 200](public-notes/Google%20IT%20Support%201/Images/Pasted%20image%2020251023125458.png%7C%20200.md)
+![[attachments/Pasted image 20251023125458.png| 200]]
 
 ```powershell
 # Checking disk to fix any problems with flag /F
