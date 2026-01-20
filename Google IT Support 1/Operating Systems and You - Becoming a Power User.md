@@ -1,10 +1,10 @@
 # Operating Systems and You: Becoming a Power User
-- [Module 1 - Navigating the System](#Module%201%20-%20Navigating%20the%20System.md)
-- [Module 2 - Users and Permissions](#Module%202%20-%20Users%20and%20Permissions.md)
-- [[#Module 3 - Package and Software Management]]
-- [[#Module 4 - Filesystems]]
-- [[#Module 5 - Process Management]]
-- [[#Module 6 - Operating Systems in Practice]]
+- [Module 1 - Navigating the System](#Module%201%20-%20Navigating%20the%20System)
+- [Module 2 - Users and Permissions](#Module%202%20-%20Users%20and%20Permissions)
+- [Module 3 - Package and Software Management](#Module%203%20-%20Package%20and%20Software%20Management)
+- [Module 4 - Filesystems](#Module%204%20-%20Filesystems)
+- [Module 5 - Process Management](#Module%205%20-%20Process%20Management)
+- [Module 6 - Operating Systems in Practice](#Module%206%20-%20Operating%20Systems%20in%20Practice)
 
 ---
 # Module 1 - Navigating the System
@@ -617,7 +617,7 @@ mklink /H file_1_hardlink file_1.txt
 
 > **Journaling** - Logging these changes NTFS creates a history of actions it's taken. The **recovery initiation** will use this logs.
 
-![[public-notes/Google IT Support 1/Images/Pasted image 20251023125458.png| 200]]
+![public-notes/Google IT Support 1/Images/Pasted image 20251023125458.png| 200](public-notes/Google%20IT%20Support%201/Images/Pasted%20image%2020251023125458.png%7C%20200.md)
 
 ```powershell
 # Checking disk to fix any problems with flag /F
