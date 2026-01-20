@@ -1,14 +1,12 @@
 # Operating Systems and You: Becoming a Power User
-- [Module 1 - Navigating the System](#Module%201%20-%20Navigating%20the%20System)
+- [Module 1 - Navigating the System](#module-1-navigating-the-system)
 - [Module 2 - Users and Permissions](#Module%202%20-%20Users%20and%20Permissions)
 - [Module 3 - Package and Software Management](#Module%203%20-%20Package%20and%20Software%20Management)
 - [Module 4 - Filesystems](#Module%204%20-%20Filesystems)
 - [Module 5 - Process Management](#Module%205%20-%20Process%20Management)
 - [Module 6 - Operating Systems in Practice](#Module%206%20-%20Operating%20Systems%20in%20Practice)
-- [TEST](#TEST)
 
 ---
-# TEST
 # Module 1 - Navigating the System
 Command-line interpreter in **Linux** - **shell**
 Language interact with - **Bash**
